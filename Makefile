@@ -1,7 +1,7 @@
 TARGET = svg2json
-LIBS = -lm
+LIBS = -lm -l json
 CC = gcc
-CFLAGS = -l json -g -Wall -std=c99
+CFLAGS = -g -Wall
 
 .PHONY: default all clean
 
