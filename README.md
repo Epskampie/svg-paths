@@ -1,4 +1,4 @@
-svg-paths is a linux commad line utility that takes all the paths from an SVG file and makes all the points absolute (so all transformations, viewboxes etc are collapsed). It then exports the data in easily readable JSON format.
+svg-paths is a linux command line utility that takes all the paths from an SVG file and makes all the points absolute (so all transformations, viewboxes etc are collapsed). It then exports the data in easily readable JSON format.
 
 Useful for making visualisations.
 
