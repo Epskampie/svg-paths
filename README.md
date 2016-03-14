@@ -5,22 +5,20 @@ Useful for making visualisations.
 Usage
 =====
 
-Use your package manager to install the json-c library.
-    On debian/ubuntu linux: `sudo apt-get install libjson0`
-
-Download svg-paths, and make the file executable:
-    `wget https://raw.githubusercontent.com/Epskampie/svg-paths/master/bin/linux-x64/svg-paths && chmod u+x svg-paths`
-
-Run it:
-    `./svg-paths PATH/TO/SVG/FILE.svg`
+* Use your package manager to install the json-c library.
+    * On debian/ubuntu linux: `sudo apt-get install libjson0`
+* Download svg-paths, and make the file executable:
+    * `wget https://raw.githubusercontent.com/Epskampie/svg-paths/master/bin/linux-x64/svg-paths`
+    * `chmod u+x svg-paths`
+* Run it:
+    * `./svg-paths PATH/TO/SVG/FILE.svg`
 
 Build instructions
 ==================
 
-Make sure you installed the json-c library.
-    On debian/ubuntu linux: `sudo apt-get install libjson0-dev`
-
-Then simply run `make`.
+* Make sure you installed the json-c library.
+    * On debian/ubuntu linux: `sudo apt-get install libjson0-dev`
+* Then simply run `make`.
     
 Acknowledgments
 ===============
