@@ -1,4 +1,4 @@
-TARGET = svg2json
+TARGET = svg-paths
 LIBS = -lm -l json
 CC = gcc
 CFLAGS = -g -Wall

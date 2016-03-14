@@ -108,7 +108,7 @@ int init(char *filename) {
         json_object_object_add(jShape, "fillRule", json_object_new_string(fillRules[(int)shape->fillRule]));
         
         json_object * jPaths = json_object_new_array();
-        // json_object_object_add(jShape, "paths", jPaths);
+        json_object_object_add(jShape, "paths", jPaths);
         
         for (NSVGpath *path = shape->paths; path != NULL; path = path->next) {
             
@@ -132,8 +132,6 @@ int init(char *filename) {
                 
                 json_object * jBezierCurve = json_object_new_object();
                 json_object_array_add(jBezierCurves, jBezierCurve);
-                
-                // printf("%f,%f %f,%f %f,%f %f,%f \n", p[0],p[1], p[2],p[3], p[4],p[5], p[6],p[7]);
                 
                 for (int i = 0; i < 6; i += 2) {
                     json_object * jPoint = json_object_new_array();
